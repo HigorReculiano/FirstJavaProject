@@ -17,8 +17,8 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         
         Aluno1 aluno = new Aluno1();
-        aluno.salvarNome();
-        aluno.mostrarNomes();
+        aluno.salvarInformacao();
+        aluno.mostrarInformacao();
     }
     
 }

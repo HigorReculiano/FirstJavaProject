@@ -9,32 +9,34 @@ import java.util.Scanner;
 
 public class Aluno1 {
     
-    private String nome1;
-    private String nome2;
-    private String nome3;
+    private String info1;
+    private String info2;
+    private String info3;
     
-    public void salvarNome(){
-        String nomeAux1;
-        String nomeAux2;
-        String nomeAux3;
+    public void salvarInformacao(){
+        String infoAux1;
+        String infoAux2;
+        String infoAux3;
         Scanner scan = new Scanner(System.in);
-        System.out.print("Digite um nome:");
-        nomeAux1 = scan.nextLine();
-        System.out.print("Digite outro nome:");
-        nomeAux2 = scan.nextLine();
-        System.out.print("Digite o ultimo nome:");
-        nomeAux3 = scan.nextLine();
-        
-        aplicarTexto(nomeAux1, nomeAux2, nomeAux3);
+        System.out.print("Olá, tudo bem? Eu sou Shirley, sua atentendente rápida.");
+        System.out.println("Digite o seu nome?");
+        infoAux1 = scan.nextLine();
+        System.out.println("Quantos anos você tem?");
+        infoAux2 = scan.nextLine();
+        System.out.println("Solteiro(a) ou casado(a)?");
+        infoAux3 = scan.nextLine();
+        System.out.println("Entendi, muito obrigado.");
+        aplicarTexto(infoAux1, infoAux2, infoAux3);
     }
     
-    public void aplicarTexto(String nome1, String nome2, String nome3){
-        this.nome1 = nome1;
-        this.nome2 = nome2;
-        this.nome3 = nome3;
+    public void aplicarTexto(String info1, String info2, String info3){
+        this.info1 = info1;
+        this.info2 = info2;
+        this.info3 = info3;
     }
     
-    public void mostrarNomes(){
-        System.out.println("Pessoa 1: " + nome1 + "/// Pessoa 2: " + nome2 + "/// Pessoa 3:" + nome3);
+    public void mostrarInformacao(){
+        System.out.println("Suas informações:\nNome: " + info1 + "\nIdade: " + info2 + "\nStatus Civil: " + info3);
+        System.out.println("Viu como sou rápida? rsrs");
     }
 }

@@ -9,15 +9,15 @@ package javaapplication1;
  *
  * @author higor
  */
-public class JavaApplication1 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        Aluno1 aluno = new Aluno1();
-        aluno.salvarInformacao();
+        Atendente aluno = new Atendente();
+        aluno.lerInformacao();
         aluno.mostrarInformacao();
     }
     

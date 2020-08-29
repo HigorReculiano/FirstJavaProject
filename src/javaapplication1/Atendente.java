@@ -7,13 +7,13 @@ package javaapplication1;
 
 import java.util.Scanner;
 
-public class Aluno1 {
+public class Atendente {
     
     private String info1;
     private String info2;
     private String info3;
     
-    public void salvarInformacao(){
+    public void lerInformacao(){
         String infoAux1;
         String infoAux2;
         String infoAux3;
